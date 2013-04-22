@@ -1,0 +1,58 @@
+body{
+	background: #eaefe6;
+}
+
+
+#logo{
+	float:left;
+}
+
+h1 {
+	color: #5c7d14;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0;
+}
+
+nav li{
+	float: left;
+	padding: 6px;
+	list-style: none;
+	font-family: helvetica;
+	font-size: 20px;
+	padding: 50px 6px 0px;
+}
+
+nav {
+	float: left;
+
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+#main_content{
+	overflow: hidden;
+}
+
+h2{
+	color: #5c7d14;
+}
+
+#first_column {
+	float: left;
+	width: 470px;
+	margin: 3px
+}
+	
+#second_column {
+	float: right;
+	width: 470px;
+	margin: 5px;
+}
+
+#small{
+	clear: both;
+}
