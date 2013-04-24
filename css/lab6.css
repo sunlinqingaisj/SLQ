@@ -1,0 +1,23 @@
+body{
+	background: #eaefe6;
+}
+
+
+#logo{
+	float:left;
+}
+
+h1 {
+	color: #5c7d14;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 10px;
+	
+}
+
+
+table{
+	border: 1px solid #313639;
+	color: #313639;
+}
