@@ -1,40 +1,32 @@
 <?xml version="1.0"?>
 <rss version="2.0">
    <channel>
-		<title>My Restaurant Review</title>
-		<link>http://sunlinqingaisj.github.io/SLQ/rss_link.html</link>
-		<description></description>
-
-		<item>
-			<title>Park Plaza Garden Restaurant</title>
-			<description>Join us at the 54th Annual Winter Park Sidewalk Art Festival March 15, 16 and 17. The festival is one of the nation’s oldest, largest and most prestigious juried outdoor art festivals, consistently rated among the top shows by Sunshine Artist and American Style magazines. Each year more than 350,000 visitors enjoy the show. 
-			</description>
-			<link>http://www.parkplazagardens.com</link>
-			<guid>http://sunlinqingaisj.github.io/SLQ/rss_link.html#park</guid>
-		</item>
-
-		<item>
-			<title>Royal Plaza  Restaurant</title>
-			<description>Check out the variety of Special Orlando Hotel Deals and Vacation Packages below that we currently offer and be sure to visit frequently as these hotel packages and deals will change throughout the year.
-			</description>
-			<link>http://www.royalplaza.com</link>
-			<guid>http://sunlinqingaisj.github.io/SLQ/rss_link.html#royal</guid>
-		</item>
-
-		<item>
-			<title>Hidden Boston Restaurant</title>
-			<description>A huge number of restaurants helped raise nearly $100,000 for the Greg Hill Foundation, mainly by donating a portion of their sales earlier this week.
-			</description>
-			<link>http://www.royalplaza.com</link>
-			<guid>http://sunlinqingaisj.github.io/SLQ/rss_link.html#boston</guid>
-		</item>
-		
-		<item>
-			<title>Steak n Shake</title>
-			<description>Steak n Shake has pretty great burgers. Their food is extremely greasy and unhealthy, but their open all night, so it's awesome for late night meals.
-			</description>
-			<link>http://www.steaknshake.com</link>
-			<guid>http://sunlinqingaisj.github.io/SLQ/rss_link.html#steak</guid>
-		</item>
+   	<title>My Restaurant Review</title>
+   	<link>http://sunlinqingaisj.github.io/SLQ/rss_link.html</link>
+   	<description></description>
+   	
+   	<item>
+   		<title>Park Plaza Garden Restaurant</title>
+		<description>Join us at the 54th Annual Winter Park Sidewalk Art Festival March 15, 16 and 17. The festival is one of the nation’s oldest, largest and most prestigious juried outdoor art festivals, consistently rated among the top shows by Sunshine Artist and American Style magazines. Each year more than 350,000 visitors enjoy the show. 
+		</description>
+		<link>http://www.parkplazagardens.com</link>
+		<guid>http://sunlinqingaisj.github.io/SLQ/rss_link.html#park</guid>
+	</item>
+	
+	<item>
+   		<title>Royal Plaza  Restaurant</title>
+		<description>Check out the variety of Special Orlando Hotel Deals and Vacation Packages below that we currently offer and be sure to visit frequently as these hotel packages and deals will change throughout the year.
+		</description>
+		<link>http://www.royalplaza.com</link>
+		<guid>http://sunlinqingaisj.github.io/SLQ/rss_link.html#royal</guid>
+	</item>
+	
+	<item>
+   		<title>Hidden Boston Restaurant</title>
+		<description>A huge number of restaurants helped raise nearly $100,000 for the Greg Hill Foundation, mainly by donating a portion of their sales earlier this week.
+		</description>
+		<link>http://www.royalplaza.com</link>
+		<guid>http://sunlinqingaisj.github.io/SLQ/rss_link.html#boston</guid>
+	</item>
 	</channel>
 	</rss>
