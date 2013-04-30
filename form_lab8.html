@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Cha Lotus</title>
 		<meta charset="utf-8">
@@ -7,24 +7,60 @@
 	</head>
 	<body class="wrapper">
 		<h1>Form for Cha Lotus</h1>
-		<div>
-		<form>
-			<p>
-				Name:
-				<input type="text" name="Name" value="Your name here" />
-			</p>
-			<p>
-				password:
-				<input type="password" name="Password" value="Your password here" />
-			</p>
-			<p>
+			<fieldset>
+				<label for="your_name">Name:</label>
+				<input type="text" name="Name" id="your_name" placeholder="Your name here" required="required"  autofocus="autofocus"/>
+			</fieldset>
+			
+			<fieldset>
+				<label for="your_password">Password:</label>
+				<input type="password" name="Password" id="your_password" value="Your password here" required="required" />
+			</fieldset>
+			
+			<fieldset>
+				<label for="your_email">Email:</label>
+				<input type="email" name="email address" id="your_email" placeholder="Your email address here" equired="required" placeholder="example@hotmail.com" />
+			</fieldset>
+			
+			<fieldset>
 				Gender:
-				<input type="radio" name="Gender" value="Male" checked="checked" />Male
-				<input type="radio" name="Gender" value="Female" />Female
-			</p>
-			<p>
-			Where are you from:
-				<select name="Contries">
+				<input type="radio" name="Gender" id="male" value="male" checked="checked" /><label for="male">Male</label>
+				<input type="radio" name="Gender" id="female" value="Female" /><label for="female">Female</label>
+			</fieldset>
+			
+			<fieldset>
+				<label for="birth">Date of birth:</label>
+				<input type="date" name="date of birth" id="birth" placeholder="mm/dd/yyyy" />
+			</fieldset>
+			
+			<fieldset>
+				<label for="phone">Phone Number:</label>
+				<input type="tel" name="phone number" id="phone" placeholder="example: 412-887-8765" />
+			</fieldset>
+			
+			<fieldset>
+				<label for="cups">How many cups of tea you drink everyday:</label>How many cups of tea you drink everyday:
+				<input type="number" name="cups of tea" id="cups" value="how many cups of tea you drink" />
+			</fieldset>
+			
+			<fieldset>
+				<label for="price">What price can you afford:</label>
+				<div>$0<input type="range" name="price range" id="price" value="price range that you can afford" />$1000</div>
+			</fieldset>
+			
+			<fieldset>
+				<label for="color">What colors of flower do you like:</label>
+				<input type="color" name="color of flower" id="color" placeholder="#313639" />
+			</fieldset>
+			
+			<fieldset>
+			<progress value="40" max="100"> 40% </progress>
+			</fieldset>
+			
+			<fieldset>
+				<legend for="from">Where are you from:</legend>
+				<label for="countries">Countries</label>
+				<select name="Contries" id="from" id="countries">
 				<option>--Select one--</option>
 				<option>Afghanistan</option>
 				<option>Aruba</option>
@@ -34,24 +70,29 @@
 				<option>South Korea</option>
 				<option>United States</option>
 				</select>
-			<p>
-				Teas that you like:
+			</fieldset>
+			
+			<fieldset>
+				<label>Teas that you like:</label>
 				<ul>
-				<li><input type="checkbox" name="Tea" value="Black Tea" checked="checked" />Black Tea</li>
-				<li><input type="checkbox" name="Tea" value="Green Tea" />Green Tea</li>
-				<li><input type="checkbox" name="Tea" value="White Tea" />White Tea</li>
-				<li><input type="checkbox" name="Tea" value="Herbal Tea" />Herbal Tea</li>
-				<li><input type="checkbox" name="Tea" value="Oolong Tea" />Oolong Tea</li>
-				<li><input type="checkbox" name="Tea" value="Rooibos Tea" />Rooibos Tea</li>
-				<li><input type="checkbox" name="Tea" value="Mate Tea" />Mate Tea</li>
+				<li><input type="checkbox" name="Tea" id="black" value="Black Tea" checked="checked" /><label for="black">Black Tea</label></li>
+				<li><input type="checkbox" name="Tea" id="green" value="Green Tea" /><label for="green">Green Tea</label></li>
+				<li><input type="checkbox" name="Tea" id="white" value="White Tea" /><label for="white">White Tea</label></li>
+				<li><input type="checkbox" name="Tea" id="herbal" value="Herbal Tea" /><label for="herbal">Herbal Tea</label></li>
+				<li><input type="checkbox" name="Tea" id="oolong" value="Oolong Tea" /><label for="oolong">Oolong Tea</label></li>
+				<li><input type="checkbox" name="Tea" id="rooibos" value="Rooibos Tea" /><label for="rooibos">Rooibos Tea</label></li>
+				<li><input type="checkbox" name="Tea" id="mate" value="Mate Tea" /><label for="mate">Mate Tea</label></li>
 				</ul>
-			</p>
-			<p>
-				<textarea name="Comments"rows="5" cols="20">What do you like about our site</textarea>
-			</p>
-			<p>
+			</fieldset>
+			
+			<fieldset>
+				<label for="comment">Your comments here</label>
+				<textarea name="Comments" id="comment" rows="5" cols="20" placeholder="What do you like about our site"></textarea>
+			</fieldset>
+			
+			<fieldset>
 				<input type="submit" name="submit" value="Submit" />
-			</p>
+			</fieldset>
 			
 			</form>
 		<div>						
